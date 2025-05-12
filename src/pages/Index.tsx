@@ -1,6 +1,6 @@
 
-import { useEffect } from 'react';
 import { useToast } from "@/hooks/use-toast";
+import { useEffect } from 'react';
 import Navbar from "@/components/layout/Navbar";
 import HeroSection from "@/components/sections/HeroSection";
 import ClassesSection from "@/components/sections/ClassesSection";

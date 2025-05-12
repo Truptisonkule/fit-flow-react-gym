@@ -1,5 +1,4 @@
 
-import { useEffect } from 'react';
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import AboutHero from "@/components/sections/AboutHero";
@@ -9,10 +8,6 @@ import GymVideoSection from "@/components/sections/GymVideoSection";
 import CallToAction from "@/components/sections/CallToAction";
 
 const About = () => {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div className="min-h-screen bg-gym-dark">
       <Navbar />
