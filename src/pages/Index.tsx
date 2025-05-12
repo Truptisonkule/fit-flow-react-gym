@@ -9,6 +9,7 @@ import TestimonialsSection from "@/components/sections/TestimonialsSection";
 import PricingSection from "@/components/sections/PricingSection";
 import ContactSection from "@/components/sections/ContactSection";
 import CallToAction from "@/components/sections/CallToAction";
+import InstagramSection from "@/components/sections/InstagramSection";
 import Footer from "@/components/layout/Footer";
 
 const Index = () => {
@@ -49,6 +50,7 @@ const Index = () => {
       <TrainersSection />
       <TestimonialsSection />
       <PricingSection />
+      <InstagramSection />
       <CallToAction />
       <ContactSection />
       <Footer />
